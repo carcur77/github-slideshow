@@ -11,3 +11,46 @@ I'm the GitHub Learning Lab bot and I'm here to help guide you in your journey t
 I'll meet you over there, can't wait to get started!
 
 This course is using the :sparkles: open source project [reveal.js](https://github.com/hakimel/reveal.js/). In some cases we’ve made changes to the history so it would behave during class, so head to the original project repo to learn more about the cool people behind this project.
+---
+
+## 🤖 Telegram Crypto Bot
+
+This repository also includes a **Telegram Crypto Bot** with advanced user customization features for cryptocurrency trading and monitoring.
+
+### Features
+
+- **Favorite Coins**: Set and manage your favorite cryptocurrencies
+- **Price Alerts**: Get notified when coins reach target prices
+- **Daily Market Summaries**: Receive personalized daily reports
+- **Trading Signals**: Get trading recommendations for your portfolio
+
+### Quick Start
+
+1. **Install dependencies**:
+   ```bash
+   ./install.sh
+   ```
+
+2. **Set up your bot**:
+   - Get a token from [@BotFather](https://t.me/botfather)
+   - Set your token: `export TELEGRAM_BOT_TOKEN='your_token'`
+
+3. **Run the bot**:
+   ```bash
+   python3 bot.py
+   ```
+
+4. **Test the functionality**:
+   ```bash
+   python3 demo.py
+   ```
+
+### Bot Commands
+
+- `/setfavorites BTC ETH XRP` - Set your favorite coins
+- `/signals favorites` - Get signals for your favorites
+- `/setalert BTC 45000` - Set price alerts
+- `/dailyon` - Enable daily summaries
+- `/status` - Check your settings
+
+For detailed documentation, see [BOT_README.md](BOT_README.md)
