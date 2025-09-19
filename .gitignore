@@ -1,4 +1,12 @@
 _site/
 .sass-cache/
 .jekyll-metadata
+
+# Bot-related files
+user_preferences.db
+*.db
+__pycache__/
+*.pyc
+*.pyo
+.env
 .bundle
